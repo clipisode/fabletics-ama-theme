@@ -1,3 +1,3 @@
 # fabletics-ama-theme
 
-A custom Fabletics theme for video AMAs.
+A custom Fabletics theme for AMA videos.
