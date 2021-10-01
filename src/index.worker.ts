@@ -55,9 +55,9 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <div class="m-2 my-12">
+          <div>
             <a href="https://fabletics.com">
-              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 125px; margin: 0 auto;" />
+              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 125px; margin: 100px auto;" />
             </a>
           </div>
           <p class="mt-12 my-12 mx-3 text-center">Nice work! Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
