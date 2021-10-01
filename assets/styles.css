@@ -50,11 +50,18 @@ body {
 #recordButton {
   font-family: "Assistant";
   font-weight: 600;
+  color: white;
   letter-spacing: 0.05rem;
-  -webkit-text-stroke: 0.65px black;
 }
 
 #uploadLink {
+  color: white;
+  font-family: "Assistant";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#uploadLink span {
   color: white;
   font-family: "Assistant";
   font-weight: 400;
@@ -79,8 +86,8 @@ body {
 #buttonsContainer button {
   font-family: "Assistant";
   font-weight: 600;
+  color: white;
   letter-spacing: 0.05rem;
-  -webkit-text-stroke: 0.65px black;
 }
 
 #buttonsContainer button.buttonSkip {
