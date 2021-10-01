@@ -9,7 +9,17 @@ export const siteData: SiteData = {
   meta: {
     // values: TOPIC_TITLE
     title: "TOPIC_TITLE • Fabletics",
-    description: "Send a video reply (no app needed) for TOPIC_TITLE",
+    description: "Send a video question (no app needed) for TOPIC_TITLE",
+  },
+  introScreen: {
+    // values: SOCIAL_NETWORK, BROWSER_NAME, INVITATION_DISPLAY_NAME, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
+    recordButtonLabel: "Record a video question",
+    readyDescription: `
+      <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Hang on</h1>
+      <p class="text-left text-gray-700 text-sm py-3">The SOCIAL_NETWORK browser doesn’t support direct camera uploads on Android.</p>
+      <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Good news</h1>
+      <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your video question to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
+    `,
   },
   introScreenDesktop: {
     // values: THEME_FILE_ROOT, TOPIC_TITLE, QR_CODE, INVITATION_DISPLAY_NAME, INVITATION_URL
