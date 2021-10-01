@@ -20,6 +20,7 @@ export const siteData: SiteData = {
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Good news</h1>
       <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your video question to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
     `,
+    extraTerms: ` plus <a href="/terms/BRAND_SLUG/TERMS_SLUG">TERMS_NAME</a> from <span class="whitespace-nowrap">Fabletics</span>`,
   },
   introScreenDesktop: {
     // values: THEME_FILE_ROOT, TOPIC_TITLE, QR_CODE, INVITATION_DISPLAY_NAME, INVITATION_URL
@@ -54,13 +55,13 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <div class="m-2">
+          <div class="m-2 my-12">
             <a href="https://fabletics.com">
-              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 250px; margin: 0 auto;" />
+              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 125px; margin: 0 auto;" />
             </a>
           </div>
-          <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
-          <p class="mt-12 mb-12 mx-3 text-center">Follow us on Instagram to see <b>INVITATION_DISPLAY_NAME</b>'s answers. <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</p>
+          <p class="mt-12 my-12 mx-3 text-center">Nice work! Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
+          <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see all the answers.</p>
         </div>
       </div>
     `,
