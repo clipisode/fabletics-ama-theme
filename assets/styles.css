@@ -48,16 +48,8 @@ body {
 }
 
 #recordButton {
-  background-color: #0066bb;
-  color: white;
   font-family: "Assistant";
   font-weight: 600;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  padding: 10px 24px;
-  margin-bottom: 16px;
-  border-radius: 8px;
-  text-align: center;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
 }
@@ -67,11 +59,6 @@ body {
   font-family: "Assistant";
   font-weight: 400;
   font-size: 14px;
-}
-
-#uploadLink span {
-  color: white;
-  text-decoration: none;
 }
 
 #introTerms {
@@ -90,16 +77,8 @@ body {
 }
 
 #buttonsContainer button {
-  width: 80%;
-  background-color: #595a5a;
-  color: white;
   font-family: "Assistant";
   font-weight: 600;
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  padding: 10px 24px;
-  margin-bottom: 6px;
-  border-radius: 8px;
   letter-spacing: 0.05rem;
   -webkit-text-stroke: 0.65px black;
 }
