@@ -29,7 +29,7 @@ export const siteData: SiteData = {
         <div class="flex flex-col items-center justify-between text-center">
           <div class="m-2">
             <a href="https://rushtix.com">
-              <img src="THEME_FILE_ROOT/icon.png" class="w-12 h-12" />
+              <img src="THEME_FILE_ROOT/icon-black-small.png" class="w-12 h-12" />
             </a>
           </div>
           <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE</h1>
@@ -48,7 +48,7 @@ export const siteData: SiteData = {
     saveButtonLabel: "Save my request",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
-        <img src="THEME_FILE_ROOT/icon.png" class="w-16 h-16" />
+        <img src="THEME_FILE_ROOT/icon-black-small.png" class="w-16 h-16" />
       </div>
     `,
   },
@@ -60,7 +60,7 @@ export const siteData: SiteData = {
           <p class="mt-12 mb-12 mx-3 text-center">This invitation is no longer accepting <span class="whitespace-nowrap">shout out requests.</span></p>
           <div class="m-2">
             <a href="https://rushtix.com">
-              <img src="THEME_FILE_ROOT/logo.png" style="width: 220px; height: 39px; margin: 0 auto;" />
+              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 250px; height: 33px; margin: 0 auto;" />
             </a>
             <p class="mt-12 mb-12 mx-3 text-center">You'll receive your shout out video from <b>INVITATION_DISPLAY_NAME</b> via email when <span class="whitespace-nowrap">it's ready.</span></p>
           </div>
@@ -76,7 +76,7 @@ export const siteData: SiteData = {
           <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video request for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
           <div class="m-2">
             <a href="https://rushtix.com">
-              <img src="THEME_FILE_ROOT/logo.png" style="width: 220px; height: 39px; margin: 0 auto;" />
+              <img src="THEME_FILE_ROOT/-small.png" style="width: 250px; height: 33px; margin: 0 auto;" />
             </a>
             <p class="mt-12 mb-12 mx-3 text-center">You'll receive your shout out video from <b>INVITATION_DISPLAY_NAME</b> via email when <span class="whitespace-nowrap">it's ready.</span></p>
           </div>
