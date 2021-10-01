@@ -57,10 +57,11 @@ export const siteData: SiteData = {
         <div>
           <div>
             <a href="https://fabletics.com">
-              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 125px; margin: 100px auto;" />
+              <img src="THEME_FILE_ROOT/logo-small.png" style="width: 175px; margin: 80px auto;" />
             </a>
           </div>
-          <p class="mt-12 my-12 mx-3 text-center">Nice work! Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
+          <p class="mt-12 my-12 mx-3 text-center">Nice work!</p>
+          <p class="mt-12 my-12 mx-3 text-center">Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
           <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see all the answers.</p>
         </div>
       </div>
