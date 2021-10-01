@@ -18,7 +18,7 @@ export const siteData: SiteData = {
         <div class="flex flex-col items-center justify-between text-center">
           <div class="m-2">
             <a href="https://fabletics.com">
-              <img src="THEME_FILE_ROOT/logo-small.png" class="h-12" />
+              <img src="THEME_FILE_ROOT/icon-small.png" class="h-12" />
             </a>
           </div>
           <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-28 md:max-h-32 overflow-hidden">TOPIC_TITLE</h1>
