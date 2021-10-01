@@ -93,30 +93,6 @@ body {
   background-color: transparent;
 }
 
-#nameScreen {
-  background-color: #161921;
-  margin-top: 140px;
-  border-radius: 24px 24px 0 0;
-  background-color: rgba(22, 25, 33, 0.95);
-}
-
-#nameScreen #videoFade {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
-  min-height: 20vh;
-  position: absolute;
-  top: 0;
-  margin-top: -140px;
-  margin-left: -0.5rem;
-  width: 100%;
-  pointer-events: none;
-}
-
-#nameScreen h1,
-#nameScreen label,
-#nameScreen p {
-  color: white;
-}
-
 #nameScreen h1 {
   font-family: "Assistant";
   font-size: 1.3rem;
@@ -125,10 +101,7 @@ body {
 }
 
 #nameScreen .formInput {
-  border: 2px solid #1f63fa;
-  background-color: black;
-  color: white;
-  font-family: "Questrial";
+  font-family: "Assistant";
 }
 
 #nameScreen .formInput:focus {
@@ -137,21 +110,21 @@ body {
 
 #nameScreen label {
   font-family: "Assistant";
-  color: white;
-  font-weight: 300;
+  color: #595a5a;
+  font-weight: 600;
   font-size: 14px;
 }
 
 #nameScreen p {
   font-family: "Assistant";
-  color: white;
+  color: black;
   font-weight: 400;
   font-size: 16px;
 }
 
 #nameScreen p b {
   letter-spacing: 0.05rem;
-  -webkit-text-stroke: 0.65px white;
+  -webkit-text-stroke: 0.65px black;
 }
 
 #successScreen {
@@ -159,7 +132,7 @@ body {
 }
 
 #successScreen p {
-  color: #161921;
+  color: black;
   text-align: center;
   font-family: "Assistant";
   font-weight: 400;
@@ -174,9 +147,4 @@ body {
   font-weight: 700;
   font-size: 2rem;
   line-height: 1.2;
-}
-
-#successScreen .hostname {
-  letter-spacing: 0.05rem;
-  -webkit-text-stroke: 0.65px white;
 }
