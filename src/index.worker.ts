@@ -61,7 +61,7 @@ export const siteData: SiteData = {
               <img src="THEME_FILE_ROOT/logo-small.png" style="width: 175px; margin: 80px auto;" />
             </a>
           </div>
-          <p class="mt-12 my-12 mx-3 text-center">We got your video question for <b><span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span></b>. Thanks!</p>
+          <p class="mt-12 my-12 mx-3 text-center">We got your video question for <b><span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span></b>.</p>
           <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see <span class="whitespace-nowrap">all the answers.</span></p>
         </div>
       </div>
