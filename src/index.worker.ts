@@ -54,12 +54,13 @@ export const siteData: SiteData = {
     markup: `
       <div class="flex flex-grow flex-col items-center justify-between">
         <div>
-          <p class="mt-12 mb-12 mx-3 text-center">Nice work!<br /><br />Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
           <div class="m-2">
             <a href="https://fabletics.com">
               <img src="THEME_FILE_ROOT/logo-small.png" style="width: 250px; margin: 0 auto;" />
             </a>
           </div>
+          <p class="mt-12 mb-12 mx-3 text-center">Nice work! Your video question for <b>INVITATION_DISPLAY_NAME</b> <span class="whitespace-nowrap">was sent.</span></p>
+          <p class="mt-12 mb-12 mx-3 text-center">Follow us on Instagram to see <b>INVITATION_DISPLAY_NAME</b>'s answers. <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</p>
         </div>
       </div>
     `,
