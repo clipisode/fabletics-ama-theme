@@ -45,6 +45,7 @@ export const siteData: SiteData = {
   },
   nameScreen: {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
+    saveButtonLabel: "Save my video",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
         <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-16" />
