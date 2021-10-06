@@ -4,7 +4,7 @@ export const getCustomDataDescriptors: GetCustomDataDescriptorsFn = () => {
   return [];
 };
 
-export const siteData: SiteData = {
+export const siteData: any = {
   customCssKey: "styles.css",
   meta: {
     // values: TOPIC_TITLE
@@ -46,6 +46,10 @@ export const siteData: SiteData = {
   nameScreen: {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
     saveButtonLabel: "Save my video",
+    instructions: `Add your name and Instagram handle and hit save so we can tag you on @FableticsMen.`,
+    socialPrompt: "instagram",
+    socialPromptFallback: null,
+    socialDescription: "",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
         <img src="THEME_FILE_ROOT/icon-black-small.png" class="h-16" />
@@ -63,7 +67,7 @@ export const siteData: SiteData = {
             </a>
           </div>
           <p class="mt-12 my-12 mx-3 text-center">We got your video question for <b><span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span></b>.</p>
-          <p class="mt-12 my-12 mx-3 text-center">Follow <a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a> on Instagram to see <span class="whitespace-nowrap">all the answers.</span></p>
+          <p class="mt-12 my-12 mx-3 text-center">Follow <b><a href="https://www.instagram.com/fableticsmen/">@FableticsMen</a></b> on Instagram to see <span class="whitespace-nowrap">all the answers.</span></p>
         </div>
       </div>
     `,
