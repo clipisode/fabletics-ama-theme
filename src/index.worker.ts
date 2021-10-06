@@ -47,8 +47,8 @@ export const siteData: any = {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
     saveButtonLabel: "Save my video",
     instructions: `Add your name and Instagram handle and hit save so we can tag you on @FableticsMen.`,
-    socialPrompt: null,
-    socialPromptFallback: "instagram",
+    socialPrompt: "instagram",
+    socialPromptFallback: null,
     socialDescription: "",
     nameScreenHeader: `
       <div class="my-2 flex flex-col items-center">
